@@ -51,8 +51,8 @@
                 dur: 800,
               })
             })
-            initiateAnimations();
           }
+          initiateAnimations();
         })
       }
     })
@@ -70,7 +70,6 @@
           clip: animationList[idx],
           loop: 'repeat',
         })
-        idx = (idx + 1) % animationList.length
       }
 
       nextAnimation();
